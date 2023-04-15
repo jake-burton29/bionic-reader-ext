@@ -1,0 +1,56 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2 {
+  font-size: 48px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 1px 1px #333;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 1.1;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  color: #ccc;
+}
+
+a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #00d4ff;
+}
+
+button {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #00d4ff;
+  border: none;
+  border-radius: 20px;
+  padding: 12px 24px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #00d4ff;
+  box-shadow: 1px 1px 10px #333;
+}

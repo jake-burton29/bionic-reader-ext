@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "BionicReader",
+  "version": "1.0.0",
+  "action": {
+    "default_icon": "fire-svgrepo-com.svg"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["activeTab", "scripting"]
+}
